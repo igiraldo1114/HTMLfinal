@@ -63,12 +63,7 @@ body{
     text-decoration: none;
 }
 
-.foot-container{
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 .web-footer{
 
@@ -77,6 +72,9 @@ body{
     text-align: center;
     padding: 10px;
     margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -111,8 +109,11 @@ body{
 
 .event-section{
 
-    
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    object-fit: cover;
+    justify-content: center;
 
 
 }
@@ -196,3 +197,5 @@ thead th{
         align-items: center;
         
 }}
+
+
